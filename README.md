@@ -4,7 +4,7 @@ OpenType is a minimalistic typing speed testing app built with React and Tailwin
 
 ## Live Demo
 
-Check out the live demo [here](typing-test-pearl-two.vercel.app).
+Check out the live demo [here](https://typing-test-pearl-two.vercel.app/).
 
 ## Current Features
 
