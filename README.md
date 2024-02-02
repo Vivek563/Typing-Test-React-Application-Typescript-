@@ -4,7 +4,7 @@ OpenType is a minimalistic typing speed testing app built with React and Tailwin
 
 ## Live Demo
 
-<!-- Check out the live demo [here](https://estifanos12.github.io/OpenType/). -->
+Check out the live demo [here](typing-test-pearl-two.vercel.app).
 
 ## Current Features
 
@@ -37,7 +37,7 @@ To run this app locally, follow these steps:
 Clone this repository
 
 ```bash
-git clone https://github.com/Estifanos12/OpenType.git
+git clone https://github.com/Vivek563/Typing-Test.git
 ```
 
 Navigate to the project directory
