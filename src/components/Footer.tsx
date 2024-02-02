@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BsGithub, BsTelegram, BsWhatsapp, BsCodeSlash } from 'react-icons/bs';
+import { BsGithub, BsTelegram, BsWhatsapp, BsCodeSlash, BsInstagram } from 'react-icons/bs';
 
 import { useThemeContext } from '../hooks/useTheme';
 
@@ -20,7 +20,7 @@ const Footer = () => {
         <div className='flex items-center justify-center '>
           <Tooltip tooltipId='Github'>
             <Social
-              url='http://github.com/Estifanos12'
+              url='http://github.com/vivek563'
               tooltipContent='Github'
               tooltipId='Github'
             >
@@ -29,17 +29,17 @@ const Footer = () => {
           </Tooltip>
           <Tooltip tooltipId='whatsapp'>
             <Social
-              url='https://wa.link/e3397e'
-              tooltipContent='WhatsApp'
-              tooltipId='whatsapp'
+              url='https://www.instagram.com/vivekmaurya_563/'
+              tooltipContent='instagram'
+              tooltipId='Instagram'
             >
-              <BsWhatsapp className='text-2xl' />
+              <BsInstagram className='text-2xl' />
             </Social>
           </Tooltip>
 
           <Tooltip tooltipId='telegram'>
             <Social
-              url='http://t.me/estif1727'
+              url='https:github.com/vivek563'
               tooltipContent='Telegram'
               tooltipId='telegram'
             >
@@ -53,7 +53,7 @@ const Footer = () => {
           <Tooltip tooltipId='source-code'>
             <StyledLink
               theme={systemTheme}
-              href='http://github.com/Estifanos12/OpenType'
+              href='https://github.com/Vivek563/Typing-Test'
               target='_blank'
               rel='noopener noreferrer'
               className='font-mono text-xl hover:underline'
