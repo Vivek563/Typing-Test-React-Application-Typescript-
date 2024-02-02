@@ -11,7 +11,7 @@ export const useCountdown = (initialValue: number, interval = 1000) => {
         if (prev > 0) {
           return prev - interval;
         }
-        if (prev === 0) clearInterval(intervalRef.current!);
+        // if (prev === 0) clearInterval(intervalRef.current!);
 
         return prev;
       });
@@ -19,13 +19,13 @@ export const useCountdown = (initialValue: number, interval = 1000) => {
   }, [initialValue]);
 
   const resetCountdown = useCallback(() => {
-    clearInterval(intervalRef.current!);
+    // clearInterval(intervalRef.current!);
     intervalRef.current = null;
     setCountdown(initialValue);
   }, [initialValue]);
 
   useEffect(() => {
-    return () => clearInterval(intervalRef.current!);
+    // return () => clearInterval(intervalRef.current!);
   }, [interval]);
 
   return { countdown, startCountdown, resetCountdown };
