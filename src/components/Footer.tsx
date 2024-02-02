@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BsGithub, BsTelegram, BsWhatsapp, BsCodeSlash, BsInstagram } from 'react-icons/bs';
+import { BsGithub, BsTelegram, BsCodeSlash, BsInstagram } from 'react-icons/bs';
 
 import { useThemeContext } from '../hooks/useTheme';
 
